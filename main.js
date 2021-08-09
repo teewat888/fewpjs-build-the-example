@@ -1,3 +1,4 @@
+(function() {
 // Defining text characters for the empty and full hearts for you to use later.
 const EMPTY_HEART = "♡";
 const FULL_HEART = "♥";
@@ -33,6 +34,7 @@ for (let i = 0; i < articles.length; i++) {
       });
   });
 }
+})();
 
 //------------------------------------------------------------------------------
 // Don't change the code below: this function mocks the server response
